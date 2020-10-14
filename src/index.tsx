@@ -1,17 +1,11 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import ReactDOM from 'react-dom'; //Integration REact and DOM (HTML element tree)
 
-ReactDOM.render(
+import App from './App'; //React componnet
+
+ReactDOM.render( // Inside this render, every every content will be added to the ElementById below
   <React.StrictMode>
     <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();
