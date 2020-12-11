@@ -4,9 +4,9 @@ import { Link } from "react-router-dom"
 import { FiPlus } from "react-icons/fi"
 import { Map, TileLayer } from "react-leaflet"
 
-import mapMarkerImg from "../images/map-marker.svg"
+import mapMarkerImg from "../../assets/images/mapmarker.svg"
 
-import "../styles/pages/orphanages-map.css"
+import "../../styles/pages/orphanages-map.css"
 import "leaflet/dist/leaflet.css"
 
 
